@@ -1,0 +1,12 @@
+Sensor Module:
+Handles pulse and blood pressure sensor initialization and readings.
+Ensures sensor health and provides raw data for further processing.
+Display Module:
+Manages the OLED display updates.
+Ensures minimal latency for real-time updates.
+Control Module:
+Controls vehicle integration (e.g., car stop/start) and alarms.
+Handles debouncing and state management for critical conditions.
+Logger Module:
+Logs all health readings and alerts with timestamps.
+Provides a debugging interface for developers.
